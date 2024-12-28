@@ -1,0 +1,53 @@
+.about-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.company-info, .history, .team, .services, .mission{
+    background: #f7f7f7f7;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.company-info h1{
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+.history h2, .team h2, .services h2, .mission h2 {
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+}
+
+.history ul, .team ul, .services ul, .mission ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+.mission .values-list h3 {
+    margin: 15px 0 5px;
+    font-size: 1.3rem;
+}
+
+.mission .values-list ul
+{
+    list-style: none;
+    padding-left: 0;
+}
+
+.mission .values-list ul li {
+    margin-bottom: 8px;
+}
+
+.mission strong {
+    color: #007bff;
+}
+
+.services ul {
+    margin-bottom: 15px;
+}
